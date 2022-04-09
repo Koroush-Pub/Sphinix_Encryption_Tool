@@ -1,6 +1,6 @@
 """
 simple symmetric encryption and decryption tool
-created by Koroush Arian
+created by Koroush Pun
 """
 
 import platform
