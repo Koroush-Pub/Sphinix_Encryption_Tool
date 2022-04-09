@@ -37,7 +37,7 @@ def decrypt(token: bytes, key: bytes) -> bytes:
 
 
 def welcoming():
-    path = os.path.dirname(__file__) + "\\banner.txt"
+    path = os.path.dirname(__file__) + "/banner.txt"
     with open(path, "r") as wl:
         print(''.join([line for line in wl]))
 
